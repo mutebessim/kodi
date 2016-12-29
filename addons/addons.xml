@@ -12,6 +12,9 @@
             <summary>Nur Penceresi</summary>
             <description>http://www.nurpenceresi.com/ sitesinden Risale-i Nur Sohbetleri</description>
             <platform>all</platform>
+            <assets>
+               <icon>http://i.hizliresim.com/pX4Oln.png</icon>
+            </assets>
         </extension>
     </addon>
     <addon id="plugin.video.kralex" name="Alem-i İslam" version="1.1.0" provider-name="kralex">
@@ -26,6 +29,10 @@
             <summary>Alem-i İslam - Kodi için online dini içerik eklentisi</summary>
             <description>Alem-i İslam eklentisi ile internetteki muhtelif dini içerikli sitelerin sohbet, vaaz ve konferans videoları cihazına geliyor.</description>
             <platform>all</platform>
+            <assets>
+               <icon>http://kralex.tk/icon.png</icon>
+               <fanart>http://kralex.tk/fanart.jpg</fanart>
+            </assets>
         </extension>
     </addon>
     <addon id="script.module.urlresolver" name="URLResolver" version="3.0.26" provider-name="tvaddons.ag, Eldorado">
