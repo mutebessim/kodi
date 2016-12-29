@@ -19,7 +19,7 @@
             <import addon="xbmc.python" version="2.1.0" />
             <import addon="script.module.urlresolver" version="3.0.26" />
         </requires>
-        <extension point="xbmc.python.pluginsource" provides="video" library="addon.py">
+        <extension point="xbmc.python.pluginsource" provides="video" library="kralex.py">
             <provides>video</provides>
         </extension>
         <extension point="xbmc.addon.metadata">
