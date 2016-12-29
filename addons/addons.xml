@@ -14,6 +14,20 @@
             <platform>all</platform>
         </extension>
     </addon>
+    <addon id="plugin.video.kralex" name="Alem-i İslam" version="1.0.0" provider-name="kralex">
+        <requires>
+            <import addon="xbmc.python" version="2.1.0" />
+            <import addon="script.module.urlresolver" version="3.0.26" />
+        </requires>
+        <extension point="xbmc.python.pluginsource" provides="video" library="addon.py">
+            <provides>video</provides>
+        </extension>
+        <extension point="xbmc.addon.metadata">
+            <summary>Alem-i İslam - Kodi için online dini içerik eklentisi</summary>
+            <description>Alem-i İslam eklentisi ile internetteki muhtelif dini içerikli sitelerin sohbet, vaaz ve konferans videoları cihazına geliyor.</description>
+            <platform>all</platform>
+        </extension>
+    </addon>
     <addon id="script.module.urlresolver" name="URLResolver" version="3.0.26" provider-name="tvaddons.ag, Eldorado">
         <requires>
             <import addon="xbmc.python" version="2.1.0" />
