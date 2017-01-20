@@ -13,7 +13,7 @@
             <description>http://www.nurpenceresi.com/ sitesinden Risale-i Nur Sohbetleri</description>
             <platform>all</platform>
             <assets>
-               <icon>http://i.hizliresim.com/pX4Oln.png</icon>
+                <icon>http://i.hizliresim.com/pX4Oln.png</icon>
             </assets>
         </extension>
     </addon>
@@ -30,8 +30,8 @@
             <description>Alem-i İslam eklentisi ile internetteki muhtelif dini içerikli sitelerin sohbet, vaaz ve konferans videoları cihazına geliyor.</description>
             <platform>all</platform>
             <assets>
-               <icon>http://kralex.tk/icon.png</icon>
-               <fanart>http://kralex.tk/fanart.jpg</fanart>
+                <icon>http://kralex.tk/icon.png</icon>
+                <fanart>http://kralex.tk/fanart.jpg</fanart>
             </assets>
         </extension>
     </addon>
@@ -45,6 +45,33 @@
             <platform>all</platform>
             <summary lang="en">Resolve common video host URL's to be playable in XBMC/Kodi.</summary>
             <description lang="en">Resolve common video host URL's to be playable in XBMC/Kodi, simplify addon development of video plugins requiring multi video hosts.</description>
+        </extension>
+    </addon>
+    <addon id="service.wp2-oscam" name="WP2-OSCam" version="1.0.1" provider-name="kralex">
+        <requires>
+            <import addon="xbmc.python" version="2.1.0" />
+        </requires>
+        <extension point="xbmc.service" library="default.py">
+            <provides></provides>
+        </extension>
+        <extension point="xbmc.addon.metadata">
+            <summary>oscam-1.20-unstable_svn-r11342 for LibreElec Wetek Play 2 Raybuntu edition</summary>
+            <description>
+oscam-1.20-unstable_svn-r11342 for LibreElec Wetek Play 2 Raybuntu edition
+    </description>
+            <disclaimer>
+May be illegal in your country. if in doubt, do not install
+    </disclaimer>
+            <platform>all</platform>
+            <news>
+* Turksat 42E fix[FOX NETWORKS GROUP]
+* Bulsatcom 39.0°E fix [Arena Sport]
+* Bulsatcom 39.0°E [IRDETO 2]
+    </news>
+            <assets>
+                <icon>resources/icon.png</icon>
+                <fanart>resources/fanart.png</fanart>
+            </assets>
         </extension>
     </addon>
 </addons>
