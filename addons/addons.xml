@@ -1,26 +1,9 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <addons>
-    <addon id="plugin.video.nurpenceresi" name="Nur Penceresi" version="1.3.0" provider-name="omergorur">
+    <addon id="plugin.video.kralex" name="Alem-i İslam" version="1.2.0" provider-name="kralex">
         <requires>
             <import addon="xbmc.python" version="2.1.0" />
-            <import addon="script.module.urlresolver" version="3.0.26" />
-        </requires>
-        <extension point="xbmc.python.pluginsource" provides="video" library="addon.py">
-            <provides>video</provides>
-        </extension>
-        <extension point="xbmc.addon.metadata">
-            <summary>Nur Penceresi</summary>
-            <description>http://www.nurpenceresi.com/ sitesinden Risale-i Nur Sohbetleri</description>
-            <platform>all</platform>
-            <assets>
-                <icon>http://i.hizliresim.com/pX4Oln.png</icon>
-            </assets>
-        </extension>
-    </addon>
-    <addon id="plugin.video.kralex" name="Alem-i İslam" version="1.1.0" provider-name="kralex">
-        <requires>
-            <import addon="xbmc.python" version="2.1.0" />
-            <import addon="script.module.urlresolver" version="3.0.26" />
+            <import addon="script.module.urlresolver" version="3.0.27" />
         </requires>
         <extension point="xbmc.python.pluginsource" provides="video" library="kralex.py">
             <provides>video</provides>
@@ -35,7 +18,7 @@
             </assets>
         </extension>
     </addon>
-    <addon id="script.module.urlresolver" name="URLResolver" version="3.0.26" provider-name="tvaddons.ag, Eldorado">
+    <addon id="script.module.urlresolver" name="URLResolver" version="3.0.27" provider-name="tvaddons.ag, Eldorado">
         <requires>
             <import addon="xbmc.python" version="2.1.0" />
         </requires>
