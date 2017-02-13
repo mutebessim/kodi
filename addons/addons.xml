@@ -6,7 +6,7 @@
             <import addon="repository.mutebessim" version="1.0.1" />
             <import addon="script.module.urlresolver" version="3.0.27" />
             <import addon="plugin.video.youtube" version="5.3.0" />
-            <import addon="script.module.autocompletion" version="1.1.2" />
+            <import addon="plugin.program.autocompletion" version="1.0.1" />
         </requires>
         <extension point="xbmc.python.pluginsource" provides="video" library="kralex.py">
             <provides>video</provides>
