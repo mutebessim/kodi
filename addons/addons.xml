@@ -1,9 +1,12 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <addons>
-    <addon id="plugin.video.kralex" name="Alem-i İslam" version="1.2.0" provider-name="kralex">
+    <addon id="plugin.video.kralex" name="Alem-i İslam" version="1.2.1" provider-name="kralex">
         <requires>
             <import addon="xbmc.python" version="2.1.0" />
+            <import addon="repository.mutebessim" version="1.0.1" />
             <import addon="script.module.urlresolver" version="3.0.27" />
+            <import addon="plugin.video.youtube" version="5.3.0" />
+            <import addon="script.module.autocompletion" version="1.1.2" />
         </requires>
         <extension point="xbmc.python.pluginsource" provides="video" library="kralex.py">
             <provides>video</provides>
@@ -13,8 +16,11 @@
             <description>Alem-i İslam eklentisi ile internetteki muhtelif dini içerikli sitelerin sohbet, vaaz ve konferans videoları cihazına geliyor.</description>
             <platform>all</platform>
             <assets>
-                <icon>http://kralex.tk/icon.png</icon>
-                <fanart>http://kralex.tk/fanart.jpg</fanart>
+                <icon>icon.png</icon>
+                <fanart>fanart.jpg</fanart>
+                <screenshot>resources/screenshots/screenshot-01.jpg</screenshot>
+                <screenshot>resources/screenshots/screenshot-02.jpg</screenshot>
+                <screenshot>resources/screenshots/screenshot-03.jpg</screenshot>
             </assets>
         </extension>
     </addon>
