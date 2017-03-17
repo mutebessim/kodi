@@ -38,6 +38,19 @@
             <platform>all</platform>
         </extension>
     </addon>
+    <addon id="repository.mutebessim-aarch64" name="Mutebessim - aarch64 Services - Depo" version="1.0.0" provider-name="kralex">
+        <extension point="xbmc.addon.repository" name="mutebessim eklentiler">
+            <info compressed="false">https://raw.githubusercontent.com/mutebessim/service-aarch64/master/addons/addons.xml</info>
+            <checksum>https://raw.githubusercontent.com/mutebessim/service-aarch64/master/addons/addon.xml.md5</checksum>
+            <datadir zip="true">https://raw.githubusercontent.com/mutebessim/service-aarch64/master/addons/</datadir>
+            <hashes>false</hashes>
+        </extension>
+        <extension point="xbmc.addon.metadata">
+            <summary>Kodi Depom</summary>
+            <description>Kodi için hazırladığımız aarch64 hizmet eklentilerin dosyalarına erişebileceğiniz depomuz.</description>
+            <platform>all</platform>
+        </extension>
+    </addon>
     <addon id="script.module.urlresolver" name="URLResolver" version="3.0.27" provider-name="tvaddons.ag, Eldorado">
         <requires>
             <import addon="xbmc.python" version="2.1.0" />
