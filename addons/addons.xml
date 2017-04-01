@@ -88,6 +88,10 @@
             <summary>trtarsiv.com'dan TRT Arşivi</summary>
             <description></description>
             <platform>all</platform>
+            <assets>
+                <icon>icon.png</icon>
+                <fanart>fanart.jpg</fanart>
+            </assets>
         </extension>
     </addon>
 </addons>
