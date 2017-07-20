@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <addons>
-    <addon id="plugin.video.kralex" name="Alem-i İslam" version="1.2.1" provider-name="kralex">
+    <addon id="plugin.video.kralex" name="Alem-i İslam" version="1.2.2" provider-name="kralex">
         <requires>
             <import addon="xbmc.python" version="2.1.0" />
             <import addon="repository.mutebessim" version="1.0.1" />
