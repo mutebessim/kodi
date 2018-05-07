@@ -125,4 +125,28 @@
             </assets>
         </extension>
     </addon>
+	
+	<addon id="script.kralex.namaz" name="Namaz Vakitleri" version="1.0.0" provider-name="kralex">
+    <requires>
+        <import addon="xbmc.python" version="2.1.0" />
+        <import version="2.12.4" addon="script.module.requests"/>
+    </requires>
+    <extension point="xbmc.python.pluginsource" provides="video" library="eklenti.py">
+        <provides>executable</provides>
+    </extension>
+    <extension point="xbmc.addon.metadata">
+        <summary></summary>
+        <description></description>
+        <platform>all</platform>
+        <assets>
+            <icon>icon.png</icon>
+            <fanart>fanart.jpg</fanart>
+			<screenshot>resources/screenshots/screenshot-01.jpg</screenshot>
+            <screenshot>resources/screenshots/screenshot-02.jpg</screenshot>
+            <screenshot>resources/screenshots/screenshot-03.jpg</screenshot>
+
+        </assets>
+    </extension>
+</addon>
+	
 </addons>
