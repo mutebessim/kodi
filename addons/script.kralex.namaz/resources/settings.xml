@@ -1,0 +1,15 @@
+﻿<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<settings>
+    <category label="Ayarlar">
+		<setting id="gorunum" type="select" lvalues="1001|1002" label="Görünüm Biçimi" default="0" />
+		<setting id="sehir" type="select" label="Şehir" values="ADANA|ADIYAMAN|AFYONKARAHİSAR|AĞRI|AKSARAY|AMASYA|ANKARA|ANTALYA|ARDAHAN|ARTVİN|AYDIN|BALIKESİR|BARTIN|BATMAN|BAYBURT|BİLECİK|BİNGÖL|BİTLİS|BOLU|BURDUR|BURSA|ÇANAKKALE|ÇANKIRI|ÇORUM|DENİZLİ|DİYARBAKIR|DÜZCE|EDİRNE|ELAZIĞ|ERZİNCAN|ERZURUM|ESKİŞEHİR|GAZİANTEP|GİRESUN|GÜMÜŞHANE|HAKKARİ|HATAY|IĞDIR|ISPARTA|İSTANBUL|İZMİR|KAHRAMANMARAŞ|KARABÜK|KARAMAN|KARS|KASTAMONU|KAYSERİ|KİLİS|KIRIKKALE|KIRKLARELİ|KIRŞEHİR|KOCAELİ|KONYA|KÜTAHYA|MALATYA|MANİSA|MARDİN|MERSİN|MUĞLA|MUŞ|NEVŞEHİR|NİĞDE|ORDU|OSMANİYE|RİZE|SAKARYA|SAMSUN|ŞANLIURFA|SİİRT|SİNOP|ŞIRNAK|SİVAS|TEKİRDAĞ|TOKAT|TRABZON|TUNCELİ|UŞAK|VAN|YALOVA|YOZGAT|ZONGULDAK" default="İSTANBUL" />
+		<setting id="konumX" type="number" label="Konum X" default="80" />
+		<setting id="konumY" type="number" label="Konum Y" default="25" />
+                <setting label="X soldan sağa, Y yukarıdan aşağı piksel değeridir." type="lsep"/>
+                <setting label="Mesela ekran ayarınız 1920x1080 ise;" type="lsep"/>
+                <setting label="Sol üstte göstermek için X: 80, Y: 25" type="lsep"/>
+                <setting label="Sağ üstte göstermek için X: 1080, Y: 25 şeklinde ayarlanmalıdır." type="lsep"/>
+                <setting label="Ekran çözünürlük değerinize göre ayarlayın." type="lsep"/>
+		<setting id="arkaplan" type="select" label="Arka Plan Rengi" values="Siyah|Mavi|Bordo|Yesil|Kahverengi|Mor|Turuncu" default="Siyah" />
+    </category>
+</settings>
