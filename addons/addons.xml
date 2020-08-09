@@ -100,7 +100,7 @@
 			</assets>
 		</extension>
 	</addon>
-	<addon id="plugin.video.trt" name="TRT İzle" version="1.3.3" provider-name="kralex">
+	<addon id="plugin.video.trt" name="TRT İzle" version="1.3.4" provider-name="kralex">
 		<requires>
 			<import addon="xbmc.python" version="2.1.0" />
 			<import addon="repository.mutebessim" version="1.0.1" />
